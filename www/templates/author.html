@@ -1,0 +1,29 @@
+<ion-content>
+	<div class="bar bar-header bar-positive">
+ 	 	<h1 class="title"></h1>
+ 	 	<a ui-sref="main" class="button button-icon icon icon-left ion-chevron-left">Regresar</a>
+  		<div class="h1 title">Autor</div>
+	</div>
+	<br><br>
+	<div class="card">
+		  <div class="item item-divider">
+		  	Informacion
+		  </div>
+		  <div class="item item-text-wrap">
+		  	Aplicacion desarrollada por Jose Fernanod Aguayo Barron. A continuacion puede consultar mas 
+		  	informacion sobre el autor
+		  </div>
+		   <div class="item item-divider icon-left">
+		   	<a ui-sref="curriculum" class="button ion-ios-book-outline">    Curriculum Vitae</a>
+		  </div>
+		  <div class="item item-divider icon-left">
+		   	<a href="fernando.aguayob@hotmail.com" class="button ion-android-mail">   {{author.email}}</a>
+		  </div>
+		  <div class="item item-divider icon-left">
+		   	<a href="https://facebook.com/fernandoaguayo" class="button ion-social-facebook">    {{author.facebook}}</a>
+		  </div>
+		  <div class="item item-divider icon-left">
+		   	<a href="tel: +52 -614-515-53-26" class="button ion-android-call">     {{author.phone}}</a>
+		  </div>
+	</div>
+</ion-content>
